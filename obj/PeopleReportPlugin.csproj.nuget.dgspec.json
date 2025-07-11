@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sadmin\\source\\repos\\PeopleReportSolution\\PeopleReportPlugin\\PeopleReportPlugin.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sadmin\\source\\repos\\PeopleReportSolution\\PeopleReportPlugin\\PeopleReportPlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sadmin\\source\\repos\\PeopleReportSolution\\PeopleReportPlugin\\PeopleReportPlugin.csproj",
+        "projectName": "PeopleReportPlugin",
+        "projectPath": "C:\\Users\\sadmin\\source\\repos\\PeopleReportSolution\\PeopleReportPlugin\\PeopleReportPlugin.csproj",
+        "packagesPath": "C:\\Users\\sadmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sadmin\\source\\repos\\PeopleReportSolution\\PeopleReportPlugin\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "MilestoneSystems.VideoOS.Platform": {
+              "target": "Package",
+              "version": "[*, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
